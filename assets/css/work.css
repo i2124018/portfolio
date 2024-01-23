@@ -33,11 +33,12 @@
 
 }
 
-h1{
-    font-size: 1.8em;
+section h1{
+    font-size: 2em;
     text-align: center;
     margin-bottom: 100px;
     margin-top: 50px;
+    text-decoration: underline;
 }
 
 /* WORKS */
@@ -62,6 +63,51 @@ h1{
     padding: 0;
 }
 
+
+
+
+/* abount */
+
+.about_content{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.self-img{
+    width: 50%;
+}
+
+.self-img img{
+    width :75%;
+    margin: 0 auto;
+}
+
+.profile{
+    width: 50%;
+}
+
+.profile h2{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.profile-detail{
+    display: flex;
+}
+
+.profile-left ul,.profile-right ul{
+    list-style: none;
+    font-size: 18px;
+}
+
+.profile-left ul li,.profile-right ul li{
+    margin-top: 30px;
+}
+
+
 /* SKILL */
 
 .pie{
@@ -84,6 +130,15 @@ h1{
 .skill{
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
+}
+
+.skill h1{
+    font-size: 26px;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .skills{
@@ -121,4 +176,47 @@ h2{
 
 .skills-item p span{
     color: rgb(255, 239, 15);
+}
+
+footer{
+    margin-top: 100px;
+    width: 95%;
+    border-top: #333 solid 1px;
+    padding-bottom: 5px;
+}
+
+.page-list{
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 20%;
+
+}
+
+.page-list-item{
+    margin-right: 50px;
+}
+
+.page-list-item p{
+    margin-bottom: 10px;
+}
+
+footer h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+.page-list a{
+    text-decoration: none;
+    color: #555;
+}
+
+.icon{
+    margin-left: 50px;
+}
+
+.icon p{
+    text-align: right;
 }
