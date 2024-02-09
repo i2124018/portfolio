@@ -27,9 +27,12 @@
     -webkit-text-stroke: 1px white;
 }
 
-.work{
-    margin: 0 auto;
+/* WORKS */
+
+#work{
+    margin: -20px auto;
     width: 80%;
+    padding-top :20px;
 
 }
 
@@ -41,8 +44,6 @@ section h1{
     text-decoration: underline;
 }
 
-/* WORKS */
-
 .works{
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +54,14 @@ section h1{
 .work-detail{
     width: 30%;
     margin-bottom: 5%;
-    background-color: blue;
+    background-color:white;
+    border: #333 solid 0.5px;
+    transition: 0.5s all;
+}
+
+.work-detail:hover{
+    opacity: 0.8;
+    transform : scale(1.05);
 }
 
 .work-detail a{
@@ -63,10 +71,16 @@ section h1{
     padding: 0;
 }
 
-
+.work-5{
+    object-fit: cover;
+}
 
 
 /* abount */
+#about{
+    margin-top: -20px;
+    padding-top: 20px;
+}
 
 .about_content{
     display: flex;

@@ -8,6 +8,7 @@ window.addEventListener('scroll', function(){
     let headerText = document.querySelector(".nav-list");
     let sheets = document.styleSheets
     let sheet = sheets[sheets.length - 1];
+    let arrow = document.querySelector(".arrow")
 
     //スタイルルールの追加
 
@@ -17,12 +18,14 @@ window.addEventListener('scroll', function(){
             '.nav-list-item a::before { background-Color: #333 }',
             sheet.cssRules.length
         );
+        arrow.style.visibility = "visible";
     }else if(scroll < topHeight - 50){
         headerText.style.color = "#fdfdfd";
         sheet.insertRule(
             '.nav-list-item a::before { background-Color: #fdfdfd }',
             sheet.cssRules.length
         );
+        arrow.style.visibility = "hidden";
     }
 });
 
