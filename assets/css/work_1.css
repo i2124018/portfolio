@@ -10,13 +10,37 @@
 .main_img{
     width: 60%;
     margin: 50px auto;
+    border: #333 1px solid;
 }
 
 .detail{
     display: flex;
-    width: 40%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 100px auto;
 
+}
+
+.detail-left{
+    width: 50%;
+    text-align: left;
+    border-right: #333 1px solid;
+}
+
+.detail-left p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.url{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.detail-right{
+    width: 50%;
+    display: flex;
 }
 
 .detail-list{
@@ -25,10 +49,5 @@
 }
 
 .detail-list li{
-    margin-bottom: 10px;
-}
-.left{
-}
-
-.right{
+    margin-bottom: 30px;
 }

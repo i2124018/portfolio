@@ -55,7 +55,6 @@ section h1{
     width: 30%;
     margin-bottom: 5%;
     background-color:white;
-    border: #333 solid 0.5px;
     transition: 0.5s all;
 }
 
@@ -69,6 +68,16 @@ section h1{
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.work-detail a img{
+    border: #333 solid 0.5px;
+}
+
+.tag{
+    text-align: center;
+    color: #333;
+    padding-bottom: 5px;
 }
 
 .work-5{
@@ -141,13 +150,15 @@ section h1{
     clip-path: circle();
 }
 
-.skill{
+#skill{
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
 }
 
-.skill h1{
+#skill h1{
     font-size: 26px;
     text-align: center;
     margin-left: 5%;
@@ -192,45 +203,3 @@ h2{
     color: rgb(255, 239, 15);
 }
 
-footer{
-    margin-top: 100px;
-    width: 95%;
-    border-top: #333 solid 1px;
-    padding-bottom: 5px;
-}
-
-.page-list{
-    padding-top: 30px;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    padding-left: 20%;
-
-}
-
-.page-list-item{
-    margin-right: 50px;
-}
-
-.page-list-item p{
-    margin-bottom: 10px;
-}
-
-footer h1{
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-
-
-.page-list a{
-    text-decoration: none;
-    color: #555;
-}
-
-.icon{
-    margin-left: 50px;
-}
-
-.icon p{
-    text-align: right;
-}
