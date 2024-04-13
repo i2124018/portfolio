@@ -15,6 +15,9 @@
         <nav class="header-nav">
             <ul class="nav-list">
                 <li class="nav-list-item">
+                    <a href="index.html">Top</a>
+                </li>
+                <li class="nav-list-item">
                     <a class="now-tab" href="index.html#work">Works</a>
                 </li>
                 <li class="nav-list-item">
@@ -26,27 +29,33 @@
     <div class="content">
             <p>個人作品</p>
             <h1>「骨格認識デモ作品」</h1>
-            <img class="main_img" src="assets/image/kokkaku.jpg" alt="">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/sdQdP4iuUO4?si=NIcFcSt7ZPwqU6Pl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="detail">
                 <div class="detail-left">
-                    <p>　大学の卒業制作で人そのものインターフェースとして捉えるインタラクションのある作品を作りたいと考えたため、技術の向上として製作しました。<br><br>
+                    <p>　大学の卒業制作で,人そのものをインターフェースとして捉えるインタラクションのある作品を作りたいと考えたため、技術の向上として製作しました。<br><br>
                         　カメラとモニターが設置してあり、カメラ内で人を認識すると雨が振り始め、カメラで人を認識しなくなると雨はやみます。左手を上げると雨から雪に変わり、右手を上げると雪から雨に変わります。<br><br>
-                        　TensorFlow.js派生のml5.jsを使いAIで骨格を認識し、p5.jsで雨を表示させてブラウザ動作しています。
+                        　TensorFlow.js派生のml5.jsを使いAIで骨格を認識し、関節の位置をトラッキングすることで、関節の角度や高さを計測し、人間の動作を認識させます。p5.jsで動作に合わせたグラフィックスを表示しています。今後、卒業制作に向けて、グラフィックス面にも注力し１つの作品として骨格認識を用いたものを製作する予定です。
                     </p>
                 </div>
                 <div class="detail-right">
-                    <ul class="detail-list left">
-                        <li>ジャンル</li>
-                        <li>製作人数</li>
-                        <li>担当</li>
-                        <li>使用技術</li>
-                    </ul>
-                    <ul class="detail-list right">
-                        <li>インタラクティブアート</li>
-                        <li>１人</li>
-                        <li>企画、開発</li>
-                        <li>ML5.js(TensorFlow),p5.js<li>
-                    </ul>
+                    <table class="detail-list">
+                        <tr>
+                            <th>ジャンル</th>
+                            <th>インタラクティブアート</th>
+                        </tr> 
+                        <tr>
+                            <th>制作人数</th>
+                            <th>1人</th>
+                        </tr> 
+                        <tr>
+                            <th>担当</th>
+                            <th>企画、開発</th>
+                        </tr> 
+                        <tr>
+                            <th>使用技術</th>
+                            <th>ML5.js(TensorFlow),p5.js</th>
+                        </tr> 
+                    </table>
                 </div>
             </div>
         </div>
@@ -68,7 +77,13 @@
                 <p><a href="index.html">SKILL SET</a></p>
             </div>
         </div>
-        <div class="icon"><p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p></div>
+        <div class="icon">
+            <p>E-mail: hibikiosaka@gmail.com</p>
+            <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+        </div>
+        <div class="data">
+            <p>© 2024 HIBIKI OSAKA</p>
+        </div>
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
