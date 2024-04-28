@@ -74,6 +74,17 @@ span{
     font-weight: bold;
 }
 
+.gallary{
+    margin-top: 40px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallary img{
+    margin-bottom: 30px;
+}
+
 @media screen and (max-width:1024px) {
     iframe{
         margin: 50px 0;
