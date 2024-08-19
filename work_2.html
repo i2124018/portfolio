@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio 「移ろい」</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/work_1.css">
+    <title>Portfolio 「移ろい」by HibikiOsaka portfolio</title>
+    <link rel="stylesheet" href="assets/css/work.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,17 +16,19 @@
             <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
         </div>
         <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                    <a href="index.html">Top</a>
-                </li>
-                <li class="nav-list-item">
-                    <a class="now-tab" href="index.html#work">Works</a>
-                </li>
-                <li class="nav-list-item">
-                    <a href="index.html#about">About</a>
-                </li>
-            </ul>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html">Top</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="now-tab" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
     </header>
     <div class="content">
@@ -32,10 +37,16 @@
             <iframe width="854" height="480" src="https://www.youtube.com/embed/9MgYQG-6FT4?si=W6CHpxRCwn0fDuTd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="detail">
                 <div class="detail-left">
-                    <p>大学のオープンキャンパスで研究室紹介ブースに展示するために４人チームで製作。主に進行やプログラム、インターフェース制作を担当しました。<br><br>
-                        年輪や針などの「時」の意味を持ったインターフェースを操作することにより、枯れ木に花を咲かせ、紅葉し季節が巡ります。時は回り続け、紅葉し葉が散っても、再び花を咲かせます。たとえ枯れ木のように寂しくても美しく咲くことができる。人生も状況が悪いときでもいつかは明るい時がくるといった意味を持っています。<br><br>
+                    <!-- <p>大学のオープンキャンパスで研究室紹介ブースに展示するために４人チームで製作。制作進行やエンジニアを担当しました。<br><br>
+                        年輪や針などの「時」のインターフェースを操作することにより、枯れ木に花を咲かせ、紅葉し季節が巡ります。時は回り続け、紅葉し葉が散っても、再び花を咲かせます。たとえ枯れ木のように寂しくても美しく咲くことができる。人生も状況が悪くともいつかは輝く時が来る。そういった意味が込められています。<br><br>
                         キャンバスに描いた木にプロジェクターで花を投影しており、プログロムはProcessingを使用しています。ロータリースイッチの回転をArduinoで読み取りProcessingにデータを送信することで徐々花を咲かせ、散らしています。
-                    </p>
+                    </p> -->
+                    <p class="work_1-p">時が流れ、時は周り、季節は移ろう<Br>
+                        樹木は花を咲かせ<Br>
+                        散れば新緑の葉が芽吹く<Br>
+                        秋になり紅葉し<Br>
+                        冬が訪れば、葉を舞い散らす<Br>
+                        時は絶えず流れ、再び季節は移ろう</p>
                 </div>
                 <div class="detail-right">
                     <table class="detail-list">
@@ -44,58 +55,69 @@
                             <th>インタラクティブアート</th>
                         </tr> 
                         <tr>
+                            <th>制作期間</th>
+                            <th>約2ヶ月（実働1ヶ月）</th>
+                        </tr> 
+                        <tr>
                             <th>制作人数</th>
-                            <th>４人</th>
+                            <th>4人</th>
                         </tr> 
                         <tr>
                             <th>担当</th>
                             <th>制作進行・エンジニア</th>
                         </tr> 
                         <tr>
-                            <th>使用技術</th>
-                            <th>Processing・Arduino</th>
+                            <th>動作環境</th>
+                            <th>Processing・Arduino<br><span>※ProcessingとはJavaをベースとした<br>ビジュアルプログラミング言語</span></th>
                         </tr> 
                     </table>
                     </ul>
                 </div>
             </div>
-            <div class="gallary">
-                <img src="assets/image/work_1/DSC00559.jpg" alt="" width="40%">
-                <img src="assets/image/work_1/DSC00564.jpg" alt="" width="40%">
-                <img src="assets/image/work_1/DSC00565.jpg" alt="" width="40%">
-                <img src="assets/image/work_1/DSC00610.jpg" alt="" width="40%">
-                <img src="assets/image/work_1/DSC00611.jpg" alt="" width="40%">
+            <div class="plain">
+                <div class="area1"><img src="assets/image/works/work_2/DSC00610.jpg" alt=""><img src="assets/image/works/work_2/DSC00611.jpg" alt=""></div>
+                <div class="area2"><p>作品テーマは「環境とテクノロジー」。絵という静止した世界に、プロジェクターで映像を投影することで、時を与えるアナログとデジタルの融合を目指しました。<br><br>体験者は何も咲いていない冬枯れした木に、針のデバイスを回すことで花が咲き、春夏秋冬を体験することができます。
+                </p><img src="assets/image/works/work_2/DSC00565.jpg" alt=""></div>
+                <div class="area3"></div>
+                <div class="area4"></div>
+
             </div>
+            <div class="linked">
+                <p>Github: <a href="https://github.com/i2124018/uthuroi.git">https://github.com/i2124018/uthuroi.git</a></p>
+            </div>
+            <button class="back-button" type="button" onclick="history.back()">&lt; back</button>
         </div>
     </div>
     <footer>
         <div class="page-list">
-            <div class="footer-work page-list-item">
-                <p><a href="index.html"><h1>WORK</h1></a></p>
-                <p><a href="work_2.html">オープンキャンパス展示作品「移ろい」</a></p>
-                <p><a href="work_3.html">オープンキャンパス展示作品「Sound Aquarium」</a></p>
-                <p><a href="work_1.html">人認識作品</a></p>
-                <p><a href="work_4.html">授業内ポートフォリオ</a></p>
-                <p><a href="work_5.html">ポートフォリオ</a></p>
-                <p><a href="work_6.html">成均館大学共同プロジェクト「Joiny」</a></p>
+            <div class="page-list-left">
+                    <a href="index.html"><h1>Top</h1></a>
+                    <a href="works.html"><h1>Works</h1></a>
+                    <a href="about.html"><h1>About</h1></a>
             </div>
-            <div class="footer-about page-list-item">
-                <p><a href="index.html"><h1>ABOUT</h1></a></p>
-                <p>Profile</p>
-                <p><a href="index.html">SKILL SET</a></p>
+            <div class="page-list-right">
+                <a href="works.html"><h1>Work</h1></a>
+                <div class="right-item">
+                    <a href="work_2.html">オープンキャンパス展示作品「移ろい」</a>
+                    <a href="work_5.html">Web site 「ポートフォリオ」</a>
+                    <a href="work_3.html">オープンキャンパス展示作品「Sound Aquarium」</a>
+                    <a href="work_6.html">成均館大学共同プロジェクト「Joiny」</a>
+                    <a href="work_1.html">個人作品[骨格検出デモ作品」</a>
+                    <a href="work_8.html">映像作品「電脳世界」</a>
+                    <a href="work_4.html">Web site 「授業内ポートフォリオ」</a>
+                    <a href="work_7.html">3DCG映像作品「射撃演習」</a>
+                </div>
             </div>
+           
         </div>
         <div class="icon">
             <p>E-mail: hibikiosaka@gmail.com</p>
+            <p>サイト内すべての無断転載を禁止します。</p>
             <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
         </div>
         <div class="data">
             <p>© 2024 HIBIKI OSAKA</p>
         </div>
     </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/app.js"></script>
-
 </body>
 </html>

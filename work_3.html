@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio 「Sound Aquarium」</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/work_1.css">
+    <title>Portfolio 「Sound Aquarium」by HibikiOsaka portfolio</title>
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/work.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Noto+Sans+JP:wght@100..900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,10 +21,10 @@
                     <a href="index.html">Top</a>
                 </li>
                 <li class="nav-list-item">
-                    <a class="now-tab" href="index.html#work">Works</a>
+                    <a class="now-tab" href="works.html">Works</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="index.html#about">About</a>
+                    <a href="about.html">About</a>
                 </li>
             </ul>
         </nav>
@@ -32,9 +35,12 @@
             <iframe width="854" height="480" src="https://www.youtube.com/embed/UAuJKG6ZUlQ?si=MyIgh4hXnHRNMa-u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="detail">
                 <div class="detail-left">
-                    <p>２回目のオープキャンパスの展示作品としてチームで製作しました。主に<span>企画や進行、全体ビジュアル</span>を担当しました。<br><br>
+                    <!-- <p>２回目のオープキャンパスの展示作品としてチームで製作しました。主に<span>企画や進行、全体ビジュアル</span>を担当しました。<br><br>
                     「水」をテーマにし、泡・波・雨の瓶を手に取ることで閉じ込められていた音が響き渡り、実際にその場にいるかのような体験ができます。視覚的刺激を減らし、「音」のみで映像は体験者の想像に左右されるため１人１人が独自の場面体験をすることができます<br><br>                 
                     瓶の下に圧力センサーが設置してあり、体験者が瓶を手に取ることで音がなります。ArduinoとProcessingを用いて動作しています。
+                    </p> -->
+                    <p>
+                        水は様々な音色を奏でる。<br>波のさざめき、泡の弾ける音、水面に雫落ちる音…。<br>これらの音を瓶に封じ込めた。<br>音の場にいなくとも実際にいるかのような、<br>音だけの世界へと連れて行く。
                     </p>
                 </div>
                 <div class="detail-right">
@@ -44,8 +50,12 @@
                             <th>インタラクティブアート</th>
                         </tr> 
                         <tr>
-                                <th>制作人数</th>
-                                <th>４人</th>
+                            <th>制作期間</th>
+                            <th>1ヶ月</th>
+                        </tr>
+                        <tr>
+                            <th>制作人数</th>
+                            <th>４人</th>
                         </tr> 
                         <tr>
                             <th>担当</th>
@@ -58,36 +68,50 @@
                     </table>
                 </div>
             </div>
+            <div class="plain">
+                <div class="area1"><img src="assets/image/works/sound_worksamune.jpg" alt=""><img src="assets/image/works/work_3/sound_bin.png" alt=""></div>
+                <div class="area2"><p> 作品テーマは「水」。泡・波・雫の３つの瓶があり、手に取ることで閉じ込められていた音が響きます。<br><br>「音」に体験を絞ることで、映像を想像に任せることで、１人１人がオリジナルの場面体験を提供します。
+                </p><img src="assets/image/works/work_3/sound_arduino.jpg" alt=""></div>
+                <div class="area3"></div>
+                <div class="area4"></div>
+            </div>
+            <div class="linked">
+                <p>Github: <a href="https://github.com/i2124018/soundaquarium.git">https://github.com/i2124018/soundaquarium.git</a></p>
+            </div>
+            <button class="back-button" type="button" onclick="history.back()">&lt; back</button>
         </div>
     </div>
     <footer>
         <div class="page-list">
-            <div class="footer-work page-list-item">
-                <p><a href="index.html"><h1>WORK</h1></a></p>
-                <p><a href="work_1.html">人認識作品</a></p>
-                <p><a href="work_2.html">オープンキャンパス展示作品「移ろい」</a></p>
-                <p><a href="work_3.html">オープンキャンパス展示作品「Sound Aquarium」</a></p>
-                <p><a href="work_4.html">授業内ポートフォリオ</a></p>
-                <p><a href="work_5.html">ポートフォリオ</a></p>
-                <p><a href="work_6.html">成均館大学共同プロジェクト「Joiny」</a></p>
+            <div class="page-list-left">
+                    <a href="index.html"><h1>Top</h1></a>
+                    <a href="works.html"><h1>Works</h1></a>
+                    <a href="about.html"><h1>About</h1></a>
             </div>
-            <div class="footer-about page-list-item">
-                <p><a href="index.html"><h1>ABOUT</h1></a></p>
-                <p>Profile</p>
-                <p><a href="index.html">SKILL SET</a></p>
+            <div class="page-list-right">
+                <a href="works.html"><h1>Work</h1></a>
+                <div class="right-item">
+                    <a href="work_2.html">オープンキャンパス展示作品「移ろい」</a>
+                    <a href="work_5.html">Web site 「ポートフォリオ」</a>
+                    <a href="work_3.html">オープンキャンパス展示作品「Sound Aquarium」</a>
+                    <a href="work_6.html">成均館大学共同プロジェクト「Joiny」</a>
+                    <a href="work_1.html">個人作品[骨格検出デモ作品」</a>
+                    <a href="work_8.html">映像作品「電脳世界」</a>
+                    <a href="work_4.html">Web site 「授業内ポートフォリオ」</a>
+                    <a href="work_7.html">3DCG映像作品「射撃演習」</a>
+                </div>
             </div>
+           
         </div>
         <div class="icon">
             <p>E-mail: hibikiosaka@gmail.com</p>
+            <p>サイト内すべての無断転載を禁止します。</p>
             <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
         </div>
         <div class="data">
             <p>© 2024 HIBIKI OSAKA</p>
         </div>
     </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/app.js"></script>
-
+    </footer>
 </body>
 </html>
