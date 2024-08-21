@@ -196,6 +196,12 @@ body{
 .work-5{
     order: 6;
     object-fit: cover;
+    height: 100%;
+}
+
+.work-5 img{
+    object-fit: cover;
+    height: 100%;
 }
 
 .work-6{
