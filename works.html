@@ -18,22 +18,29 @@
         <a href="#top">^</a>
     </div>
     <header id="#top">
-        <div class="header-logo">
-            <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
+        <div class="header-inner">
+            <div class="header-logo">
+                <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
+            </div>
+            <button class="hamburger-button hamburger" id="js-hamburger">
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+            </button>
+            <nav class="header-nav" id="js-nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html">Top</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="now-tab" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                    <a href="index.html">Top</a>
-                </li>
-                <li class="nav-list-item">
-                    <a class="now-tab" href="works.html">Works</a>
-                </li>
-                <li class="nav-list-item">
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-        </nav>
     </header>
     <div class="middle">
         <section id="work">
@@ -254,5 +261,6 @@
     
     <script src="assets/js/masonry.js"></script>
     <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/hamburger.js"></script>
 </body>
 </html>

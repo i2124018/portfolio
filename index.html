@@ -15,32 +15,40 @@
         <a href="#top">^</a>
     </div>
     <header id="#top">
-        <div class="header-logo">
-            <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
+        <div class="header-inner">
+            <div class="header-logo">
+                <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
+            </div>
+            <button class="hamburger-button hamburger" id="js-hamburger">
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+            </button>
+            <nav class="header-nav" id="js-nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html">Top</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="now-tab" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                    <a href="index.html">Top</a>
-                </li>
-                <li class="nav-list-item">
-                    <a class="now-tab" href="works.html">Works</a>
-                </li>
-                <li class="nav-list-item">
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-        </nav>
     </header>
     <div class="top" id="top">
-        <!-- <img src="assets/image/top-img.JPG" alt="top-img" class="top-img" width="100%" height="auto"> -->
-        <div class="top-movie"><video class="top-img" src="assets/video/topMovie.mp4" autoplay muted loop poster="assets/image/top-img.JPG" width="100%" height="auto"></video></div>
-        <div class="top-text">
-            <h1>TECHNOLOGY　✕　ART</h1>
-            <p>
-            <strong>HIBIKI OSAKA</strong><br><br>
-            DEPARTMENT OF INTERACTIVE MEDIA<br>FACULTY OF ART<br>TOKYO POLYTECHNIC UNIVERSITY<br>PORTFOLIO WEB SITE</p>
-        </div>
+        <div class="top-inner">
+            <div class="top-movie"><video class="top-img" src="assets/video/topMovie.mp4" autoplay muted loop poster="assets/image/top-img.JPG" width="100%" height="auto"></video></div>
+            <div class="top-text">
+                <h1>TECHNOLOGY　✕　ART</h1>
+                <p>
+                <strong>HIBIKI OSAKA</strong><br><br>
+                DEPARTMENT OF INTERACTIVE MEDIA<br>FACULTY OF ART<br>TOKYO POLYTECHNIC UNIVERSITY<br>PORTFOLIO WEB SITE</p>
+            </div>
+    </div>
     </div>
     <div class="middle">
         <section id="work">
@@ -153,6 +161,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/scrollreveal.js"></script>
-
+    <script src="assets/js/hamburger.js"></script>
 </body>
 </html>

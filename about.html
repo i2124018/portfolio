@@ -11,26 +11,33 @@
     <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Noto+Sans+JP:wght@100..900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="arrow">
+    <!-- <div class="arrow">
         <a href="#top">^</a>
-    </div>
-    <header id="#top">
-        <div class="header-logo">
-            <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
+    </div> -->
+    <header>
+        <div class="header-inner">
+            <div class="header-logo">
+                <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
+            </div>
+            <button class="hamburger-button hamburger" id="js-hamburger">
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+            </button>
+            <nav class="header-nav" id="js-nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html">Top</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="now-tab" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                    <a href="index.html">Top</a>
-                </li>
-                <li class="nav-list-item">
-                    <a class="now-tab" href="works.html">Works</a>
-                </li>
-                <li class="nav-list-item">
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-        </nav>
     </header>
     <div class="middle">
         <section id="about">
@@ -95,7 +102,7 @@
                     </div>
                     <div class="skills-item">
                         <img src="assets/image/icon-processing.png" alt="html" width="96">
-                        <h2>Processing(JAVA)</h2>
+                        <h2 class="pro_h2">Processing(JAVA)</h2>
                         <p><span>★★★★</span>★</p>
                     </div>
                     <div class="skills-item">
@@ -159,7 +166,6 @@
                     <a href="work_10.html">Web site「架空会社ホームページ」</a>
                 </div>
             </div>
-           
         </div>
         <div class="icon">
             <p>E-mail: hibikiosaka@gmail.com</p>
@@ -170,5 +176,6 @@
             <p>© 2024 HIBIKI OSAKA</p>
         </div>
     </footer>
+    <script src="assets/js/hamburger.js"></script>
 </body>
 </html>

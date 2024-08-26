@@ -11,12 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Noto+Sans+JP:wght@100..900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-logo">
-            <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
-        </div>
-        <nav class="header-nav">
-            <nav class="header-nav">
+    <header id="#top">
+        <div class="header-inner">
+            <div class="header-logo">
+                <img src="assets/image/IMG_20210816_201947_958.jpg"  alt="">
+            </div>
+            <button class="hamburger-button hamburger" id="js-hamburger">
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+                <span class="button-inner"></span>
+            </button>
+            <nav class="header-nav" id="js-nav">
                 <ul class="nav-list">
                     <li class="nav-list-item">
                         <a href="index.html">Top</a>
@@ -29,7 +34,7 @@
                     </li>
                 </ul>
             </nav>
-        </nav>
+        </div>
     </header>
     <div class="content">
             <p>映像作品</p>
@@ -95,5 +100,6 @@
             <p>© 2024 HIBIKI OSAKA</p>
         </div>
     </footer>
+    <script src="assets/js/hamburger.js"></script>
 </body>
 </html>
